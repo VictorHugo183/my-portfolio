@@ -1,0 +1,136 @@
+.portfolio {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.portfolio > h2 { 
+  font-size: 3em;
+}
+
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.projectStyle{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+  z-index: -2;
+}
+
+.projectStyle h3{
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+
+.projectStyle p {
+  color: #444;
+  margin-top: 4px;
+}
+
+.projectStyle .buttonsContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectStyle .buttonsContainer a{
+  display: inline-block;
+}
+
+.projectStyle button{
+  background: #272a33;
+  color: #eee;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style:none;
+}
+
+.projectStyle button:hover{
+  background: #353945;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  z-index: -2;
+/*   object-fit: cover;
+  object-position: center; */
+}
+
+.imageWrapper{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrapper .content{
+  position: absolute;
+  display: flex;
+  inset: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #F8F0E3;
+  background: rgba(0,0,0,0.9);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.5s;
+}
+
+.imageWrapper:hover .content{
+  opacity: 1;
+  z-index: -1;
+}
+
+.imageWrapper:hover .content .footer{
+  color: #F8F0E3;
+  position: absolute;
+  opacity: 1;
+  bottom: 0;
+  padding-bottom: 0.5rem;
+  z-index: -1;
+}
+
+
+@media (max-width: 1100px){
+  .projectStyle{
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+}
+
+@media (max-width: 680px){
+  .projectStyle{
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio {
+    text-align: center;
+    margin-top: 5.5rem;
+  }
+
+  .portfolio > h2 { 
+    font-size: 2em;
+  }
+
+  .portfolio > h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+}

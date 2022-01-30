@@ -1,0 +1,58 @@
+.header{
+  text-align: center;
+  margin-top: 18rem;
+}
+
+.header h2{
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.contacts .contact:hover svg{
+  fill: #555;
+}
+.contacts .contact:hover p{
+  color: #555;
+}
+
+.contacts .contact svg{
+  font-size: 3em;
+}
+
+.contacts .contact{
+  text-align: center;
+}
+
+.contacts .contact p{
+  text-align: center;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 680px){
+  .header{
+    margin-top: 6rem;
+  }
+
+  .header h2{
+    font-size: 1.8rem;
+  }
+
+  .contacts{
+    gap: 0.9rem;
+  }
+
+  .contacts .contact{
+    width: 100%;
+  }
+}

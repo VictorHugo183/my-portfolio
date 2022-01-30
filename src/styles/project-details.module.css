@@ -1,0 +1,50 @@
+.details {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.details h2 {
+  font-size: 3.5rem;
+  margin-top: 8rem;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.details button{
+  background: /* #333; */ #272a33;
+  color: /* #f4f0e6; */ #eee;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: -2rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  border-style:none;
+}
+
+.details button:hover{
+  background: #353945;
+}
+
+.html {
+  margin-top: 40px;
+}
+
+@media (max-width: 680px){
+  .details h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .details h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}

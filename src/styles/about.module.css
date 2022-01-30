@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+.aboutMe{
+  margin-top: 10rem;
+  text-align: center;
+    margin-bottom: 3rem;
+}
+
+.aboutMe > h2 {
+  font-size: 2em;
+  margin-top: 80px;
+}
+
+.aboutMe > p{
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+    padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.skillsText{
+  text-align: center;
+}
+
+.skillsText > h3 {
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
+
+.skillsList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 2rem;
+}
+
+.skill p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill > svg{
+  height: 3rem;
+}
+
+@media (max-width: 680px){
+  .aboutMe{
+    margin-top: 5rem;
+    text-align: center;
+      margin-bottom: 3rem;
+  }
+  .aboutMe > h2 {
+  font-size: 1.5em;
+  margin-top: 80px;
+  }
+
+  .aboutMe > p{
+  font-size: 1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .skillsText > h3 {
+  font-size: 1.5em;
+  margin-bottom: 2rem;
+}
+
+.skill{
+  margin: 0 0.5rem;
+}
+
+.skill > svg{
+  height: 3rem;
+}
+}
