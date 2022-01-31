@@ -18,10 +18,10 @@
   padding: 0 1rem;
 }
 
-.contacts .contact:hover svg{
+.contacts .contact svg:hover{
   fill: #555;
 }
-.contacts .contact:hover p{
+.contacts .contact p:hover{
   color: #555;
 }
 
