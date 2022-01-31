@@ -8,10 +8,10 @@ export default function About(){
     <Layout>
       <div className={aboutMe}>
         <h2>About me</h2>
-        <p>My name is Victor and I am a front-end web developer. I'm passionate about creating user-friendly responsive applications, I'm also interested in new programming technologies, and continuous self improvement.
+        <p>My name is Victor and I am a front-end web developer. I enjoy creating responsive user-friendly applications, I am passionate about learning new programming technologies and continuously improving my skills.
         </p>
         <p>
-          I've always loved technology and expressing myself creatively through various means such as music, art and game development, which is why I have been interested in web development since I was introduced to it at university, as it allows me to be creative while making client-facing applications.
+          The combination of creativity and technology drives my excitement and passion for web development. When I'm not coding I like to spend my time reading, gaming and playing piano.
         </p>
       </div>
       <div className={skillsText}>
