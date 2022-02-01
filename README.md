@@ -25,7 +25,7 @@ This is where I share my favourite personal projects, built using:
     Less repetition and easy to update content by using React components
   </li>
   <li>
-    Provides better SEO than just React.js, and quick load times, due to static site generation at build time.
+    Provides quick load times and better SEO than just React.js, due to static site generation at build time.
   </li>
   <li>
     Gatsby combines all our data sources into a unified graphQL layer, making it much easier to access. for this project my data comes from individual markdown files for each project.
