@@ -49,6 +49,9 @@ This is where I share my favourite personal projects, built using:
   <li>
     Used a <strong>graphQL</strong> query in the index.js page inside Projects, to get all Markdown files containing project data, it sorts them by the priority property and then displays the relevant information for each project. project-details.js inside Templates folder also makes use of the graphQL layer.
   </li>
+  <li>
+    <strong>gatsby-node.js: </strong> runs at build time inside a Node environment. This is where we fetch data (project slugs) with graphQL and generate our project details pages with that data, by passing it on to the project-details.js template file as a query variable. project-details.js can then use that query variable inside a graphQL query to get details such as content and title from each project markdown file.
+  </li>
 </ul>
 
   
