@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Navbar from './Navbar'
 import '../styles/global.css'
-import { homepage } from '../../static/Homepage.png'
+import homepage  from '../images/Homepage.png'
 export default function Layout( { children }){
   return (
     <>
@@ -22,7 +22,7 @@ export default function Layout( { children }){
         <meta property="twitter:url" content="https://www.vnascimento.com/"/>
         <meta property="twitter:title" content="Victor Nascimento | Portfolio"/>
         <meta property="twitter:description" content="Web Developer Portfolio"/>
-        <meta property="twitter:image" content={homepage}/>
+        <meta property="twitter:image" content={homepage} />
       </Helmet>
 
       <div className="body-border body-border--top"></div>
