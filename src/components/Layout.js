@@ -16,13 +16,13 @@ export default function Layout( { children }){
         <meta property="og:url" content="https://www.vnascimento.com/"/>
         <meta property="og:title" content="Victor Nascimento | Portfolio"/>
         <meta property="og:description" content="Web Developer Portfolio"/>
-        <meta property="og:image" content={homepage}/>
+        <meta property="og:image" content={"https://www.vnascimento.com" + homepage}/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://www.vnascimento.com/"/>
         <meta property="twitter:title" content="Victor Nascimento | Portfolio"/>
         <meta property="twitter:description" content="Web Developer Portfolio"/>
-        <meta property="twitter:image" content={homepage} />
+        <meta property="twitter:image" content={"https://www.vnascimento.com" + homepage} />
       </Helmet>
 
       <div className="body-border body-border--top"></div>
