@@ -4,8 +4,7 @@ import Layout from '../components/Layout'
 import '../styles/global.css'
 import {header, btn, container} from '../styles/home.module.css';
 
-export default function Home({ data }) {/* destructure data we get from the graphql query */
-  const {title, description } = data.site.siteMetadata
+export default function Home() {
   return (
   <Layout>
     <div className={container}>
@@ -24,14 +23,3 @@ export default function Home({ data }) {/* destructure data we get from the grap
   </Layout>
   )
 }
-
-export const query = graphql`
-query SiteInfo {
-  site {
-    siteMetadata {
-      title
-      description
-    }
-  }
-}
-`
