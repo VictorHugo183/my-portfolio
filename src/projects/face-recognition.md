@@ -2,7 +2,7 @@
 title: Facial Recognition App
 stack: React.js, Node.js, Express, PostgreSQL
 slug: face-recognition
-priority: 2
+priority: 3
 thumb: ../images/thumbnails/face-recognition-thumbnail.png
 description: A fullstack project with user authentication which interacts with an external facial recognition API.
 source: https://github.com/VictorHugo183/facerecognition-app
