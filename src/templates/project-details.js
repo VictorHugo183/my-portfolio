@@ -11,8 +11,8 @@ export default function ProjectDetails({ data }){
       <div className={details}>
         <h2>{title}</h2>
         <h3>{stack}</h3>
-        <a href={live} target="_blank"><button>View Demo</button></a>
-        <a href={source} target="_blank"><button>View Code</button></a>
+        {live ? <a href={live} target="_blank"><button>View Demo</button></a> : ""}
+        {source ? <a href={source} target="_blank"><button>View Code</button></a>: ""}
         <div className={html} dangerouslySetInnerHTML={{__html: html}} />
       </div>
     </Layout>

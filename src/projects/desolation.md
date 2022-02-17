@@ -12,7 +12,7 @@ live: https://victorhugo183.github.io/desolation-game/
 ### About the website:
 A fully responsive, fast and SEO-friendly website which showcases a video game I've built.<br>
 I made use of several Bootstrap features such as grid layout, carousel and modal components, to achieve my envisioned design.<br>
-As the website uses many images to showcase the game, I had to keep file sizes in mind. to minimize file sizes, I compressed all images as much as possible without losing visual quality and replaced a .gif file with a lighter weight .mov file, which not only drastically decreased the file size but it also had much higher visual quality.
+As the website uses many images to showcase the game, I had to keep file sizes in mind. to minimize file sizes, I compressed all images and chose appropriate file formats, such as replacing a .gif file with a lighter weight .mov file, which not only drastically decreased the file size but it also had much higher visual quality.
 
 ### About the game:
 Desolation is an action RPG video game for PC developed using RPG Maker VX Ace, it has a massive world with over 400 maps and takes about 14 hours to complete.
