@@ -18,8 +18,8 @@ export default function Projects({ data }){
             <h3>{project.frontmatter.title}</h3>
             <p>{project.frontmatter.stack}</p>
             <div className={buttonsContainer}>
-              <a href={project.frontmatter.live} target="_blank"><button>View Demo</button></a>
-              <a href={project.frontmatter.source} target="_blank"><button>View Code</button></a>
+              {project.frontmatter.live ? <a href={project.frontmatter.live} target="_blank"><button>View Demo</button></a> : ""}
+              {project.frontmatter.source ? <a href={project.frontmatter.source} target="_blank"><button>View Code</button></a> : ""}
             </div>
             <Link 
             to={"/projects/" + project.frontmatter.slug} 

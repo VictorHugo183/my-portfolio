@@ -8,7 +8,7 @@ export default function About(){
     <Layout>
       <div className={aboutMe}>
         <h2>About me</h2>
-        <p>My name is Victor and I am a front-end web developer. I enjoy creating responsive user-friendly applications, I am passionate about learning new programming technologies and continuously improving my skills.
+        <p>My name is Victor and I am a front-end web developer. I enjoy creating responsive user-friendly applications. I am passionate about learning new programming technologies and continuously improving my skills.
         </p>
         <p>
           The combination of creativity and technology drives my excitement and passion for web development. When I'm not coding I like to spend my time reading, gaming and playing piano.
