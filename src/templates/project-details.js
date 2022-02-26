@@ -1,19 +1,19 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
-import {details, html} from '../styles/project-details.module.css'
+import { details, html } from '../styles/project-details.module.css'
 
-export default function ProjectDetails({ data }){
-  const {html} = data.markdownRemark
-  const {title, stack, source, live} = data.markdownRemark.frontmatter
+export default function ProjectDetails({ data }) {
+  const { html } = data.markdownRemark
+  const { title, stack, source, live } = data.markdownRemark.frontmatter
   return (
     <Layout>
       <div className={details}>
         <h2>{title}</h2>
         <h3>{stack}</h3>
-        {live ? <a href={live} target="_blank"><button>View Demo</button></a> : ""}
-        {source ? <a href={source} target="_blank"><button>View Code</button></a>: ""}
-        <div className={html} dangerouslySetInnerHTML={{__html: html}} />
+        {live ? <a href={live} target="_blank" rel="noreferrer"><button>View Demo</button></a> : ""}
+        {source ? <a href={source} target="_blank" rel="noreferrer"><button>View Code</button></a> : ""}
+        <div className={html} dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
   )

@@ -4,13 +4,12 @@ stack: HTML, CSS, JavaScript
 slug: javascript-pokedex
 priority: 5
 thumb: ../images/thumbnails/pokedex-thumbnail.png
-description: A single-page application using vanilla HTML, CSS & JS to fetch data from a REST API.
+description: A single-page application that fetches data from a REST API and displays it using DOM manipulation.
 source: https://github.com/VictorHugo183/js-pokedex
 live: https://victorhugo183.github.io/js-pokedex/
 ---
 ### Description:
-A single page website created using vanilla HTML, CSS and Javascript.<br>
-This website uses asynchronous Javascript to fetch data from an external API and displays it using DOM manipulation.
+This website uses asynchronous Javascript (Fetch API) to fetch data from a REST API and displays it using DOM manipulation.
 
 ### Goals:
-To practice working with DOM manipulation, fetching JSON data from an API and handling promises.
+To practice DOM manipulation, fetching and using JSON data from an API and handling promises.

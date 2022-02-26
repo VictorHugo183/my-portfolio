@@ -73,9 +73,27 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.imageWrapper .footerBefore{
+  position: absolute;
+  bottom: 0;
+  color: #F8F0E3;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  opacity: 1;
+
+  left:0;
+  right: 0;
+  padding-bottom: 0.5rem;
+}
+
+.imageWrapper:hover .footerBefore{
+  opacity: 0;
 }
 
 .imageWrapper .content{
+  border-radius: 10px;
   position: absolute;
   display: flex;
   inset: 0;
