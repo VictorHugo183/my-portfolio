@@ -17,7 +17,7 @@ Users are able to view the optimal layout for the site depending on their device
 To practice creating a website from a given design and styles specification.
 
 ### What I learned:
-<ul style="list-style: inside;">
+<ul style="list-style: inside; margin-bottom: 1.5rem;">
   <li>How to create a navigation element where the design for desktop and mobile are significantly different.</li>
   <li>How to toggle dropdown menus with JavaScript, so that only the current active menu is visible.</li>
   <li>A better understanding of CSS, including image backgrounds and positioning (relative vs. absolute)</li>

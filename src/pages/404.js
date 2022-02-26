@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import {container, header} from '../styles/404.module.css'
+import { container, header } from '../styles/404.module.css'
 
-export default function NotFound(){
-  return(
+export default function NotFound() {
+  return (
     <Layout>
       <div className={container}>
         <section className={header}>
