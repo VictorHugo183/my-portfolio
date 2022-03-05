@@ -2,7 +2,7 @@
 title: Blogr Landing Page
 stack: HTML, CSS, JavaScript
 slug: blogr
-priority: 4
+priority: 5
 thumb: ../images/thumbnails/blogr-thumbnail.png
 description: A fully responsive landing page built from a design specification.
 source: https://github.com/VictorHugo183/blogr-landing-page

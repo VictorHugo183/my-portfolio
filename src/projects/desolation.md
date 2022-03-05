@@ -2,7 +2,7 @@
 title: Desolation Game Website
 stack: Bootstrap 5, HTML, CSS, JavaScript
 slug: desolation-game-website
-priority: 2
+priority: 3
 thumb: ../images/thumbnails/desolation-thumbnail.png
 description: A fully responsive website which showcases my RPG video game, Desolation.
 source: https://github.com/VictorHugo183/desolation-game

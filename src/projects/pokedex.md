@@ -2,7 +2,7 @@
 title: Javascript Pokedex
 stack: HTML, CSS, JavaScript
 slug: javascript-pokedex
-priority: 5
+priority: 6
 thumb: ../images/thumbnails/pokedex-thumbnail.png
 description: A single-page application that fetches data from a REST API and displays it using DOM manipulation.
 source: https://github.com/VictorHugo183/js-pokedex
