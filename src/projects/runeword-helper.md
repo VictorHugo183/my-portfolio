@@ -2,7 +2,7 @@
 title: Runeword Helper
 stack: React.js
 slug: runeword-helper
-priority: 1
+priority: 2
 thumb: ../images/thumbnails/runeword-helper-thumbnail.png
 description: A Progressive Web App built to assist Diablo 2 players. It shows what Runewords they can make with the Runes that they own.
 source: https://github.com/VictorHugo183/runeword-helper
